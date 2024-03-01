@@ -73,7 +73,7 @@
 &kp Q         &kp W         &kp F          &kp P           &kp B       &kp C_VOL_UP    &bt BT(0)     &kp J      &kp L          &kp U          &kp Y         &kp QUOT
 &hml LGUI A   &hml LALT R   &hml LCTRL S   &hml LSHFT T    &kp G       &kp C_MUTE      &bt BT(1)     &kp M      &hmr LSHFT N   &hmr LCTRL E   &hmr LALT I   &hmr LGUI O   
 &kp Z         &kp X         &kp C          &kp D           &kp V       &kp C_VOL_DN    &bt BT(2)     &kp K      &kp H          &kp COMMA      &kp DOT       &kp FSLH
-&to BAS_L                  &kp ESC        &lt NAV_L SPACE &lt NUM_L TAB                           &kp RET    &kp BKSP       &kp DEL                      &to GAME_L
+                  &kp ESC        &lt NAV_L SPACE &lt NUM_L TAB        &to BAS_L                             &to GAME_L            &kp RET    &kp BKSP       &kp DEL
             >;
         };
         navigate_layer {
@@ -82,7 +82,7 @@
 &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &kp HOME    &trans &trans     &none &none &none &none &none
 &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT       &none       &trans &trans     &none &kp LSHFT &kp LCTRL &kp LALT &kp LGUI
 &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT &kp END     &trans &trans     &none    &none    &none    &none    &none     
-&trans                                           &none &none &none                       &mkp LCLK &mkp MCLK &mkp RCLK       &trans 
+&none &none &none       &trans    &trans              &mkp LCLK &mkp MCLK &mkp RCLK 
             >;
         };
         number_layer {
@@ -92,7 +92,7 @@ AS(GRAVE) AS(N7) AS(N8) AS(N9) ASI(EQUAL)   &trans &trans    &none &kp F7 &kp F8
 AS(SEMI)  AS(N4) AS(N5) AS(N6) AS(N0)       &trans &trans    &none &kp F4 &kp F5 &kp F6 &kp F11
 &kp PSCRN AS(N1) AS(N2) AS(N3) AS(MINUS)    &trans &trans    &none &kp F1 &kp F2 &kp F3 &kp F12
 
-&trans           &none &none &none                     AS(LEFT_BRACKET) AS(BACKSLASH) AS(RIGHT_BRACKET) &trans
+           &none &none &none    &trans    &trans             AS(LEFT_BRACKET) AS(BACKSLASH) AS(RIGHT_BRACKET)
             >;
         };
     };
