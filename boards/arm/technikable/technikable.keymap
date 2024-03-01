@@ -72,7 +72,7 @@
 &kp Q         &kp W         &kp F          &kp P           &kp B       &kp ESC        &kp BKSP     &kp J      &kp L          &kp U          &kp Y         &kp QUOT
 &hml LGUI A   &hml LALT R   &hml LCTRL S   &hml LSHFT T    &kp G       &kp TAB        &kp QUOT     &kp M      &hmr LSHFT N   &hmr LCTRL E   &hmr LALT I   &hmr LGUI O   
 &kp Z         &kp X         &kp C          &kp D           &kp V       &kp LSHFT      &kp RET      &kp K      &kp H          &kp COMMA      &kp DOT       &kp FSLH
-&to BASE_L                  &kp ESC        &lt NAV_L SPACE &lt NUM_L TAB                           &kp RET    &mo BKSP       &kp DEL                      &to GAME_L
+&to BAS_L                  &kp ESC        &lt NAV_L SPACE &lt NUM_L TAB                           &kp RET    &mo BKSP       &kp DEL                      &to GAME_L
             >;
         };
         navigate_layer {
